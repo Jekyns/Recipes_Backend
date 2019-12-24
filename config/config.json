@@ -1,0 +1,54 @@
+{
+  "production": {
+    "db": {
+      "username": "postgres",
+      "password": 1234,
+      "database": "Users",
+      "host": "127.0.0.1",
+      "dialect": "postgres",
+      "operatorsAliases": false,
+      "define": {
+        "timestamps": false
+      }
+    },
+    "email": {
+      "user": "axkuz97",
+      "pass": "12323qwe"
+    }
+  },
+  "development": {
+    "db": {
+      "username": "postgres",
+      "password": "1234",
+      "database": "Users",
+      "host": "127.0.0.1",
+      "logging": false,
+      "dialect": "postgres",
+      "operatorsAliases": false,
+      "define": {
+        "timestamps": false
+      }
+    },
+    "email": {
+      "user": "axkuz97",
+      "pass": "12323qwe"
+    }
+  },
+  "test": {
+    "db": {
+      "username": "postgres",
+      "password": null,
+      "database": "Users",
+      "host": "127.0.0.1",
+      "dialect": "postgres",
+      "operatorsAliases": false,
+      "define": {
+        "timestamps": false
+      }
+    },
+    "email": {
+      "user": "axkuz97",
+      "pass": "12323qwe"
+    }
+  }
+}
